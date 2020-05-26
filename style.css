@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+  font-family: 'Poppins';
+  background-color: rgb(240, 240, 240);
+}
+
+h1, h2{
+  font-family: 'Open Sans Condensed';
+}
+
+a{
+  color: rgb(83,169,125);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(45,120,100);;
+}
+
+@media (max-width: 1440px) {
+  /* For a screen < 1440px, this CSS will be read */
+  .card-white{
+    width: 560px;
+    margin: 18px auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
+  }
+}
+
+@media (max-width: 720px) {
+   .card-white{
+    width: 560px;
+    margin: 18px auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
+  }
+}
+
+@media (max-width: 540px) {
+    .card-white{
+    width: 300px;
+    margin: 18px auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
+  }
+
+}
+
+.list-inline{
+  width: 200px;
+  margin: 8px auto;
+  padding: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.icon-inline{
+  margin: 10px;
+  font-size: 32px;
+}
+
+.img-circle{
+  border-radius: 60%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.btn-green{
+  background-color: rgb(83,169,125);
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
