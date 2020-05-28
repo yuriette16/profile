@@ -15,8 +15,18 @@ a{
   text-decoration: none;
 }
 
-a:hover{
+li a:hover{
   color: rgb(45,120,100);;
+}
+
+.card-white{
+  width: 640px;
+  margin: 24px auto;
+  background-color: white;
+  border-radius: 4px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
 }
 
 @media (max-width: 1440px) {
@@ -83,6 +93,15 @@ a:hover{
 .btn-green{
   background-color: rgb(83,169,125);
   color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.btn-green:hover{
+  background-color: white;
+  color: rgb(83,169,125);
+  border-style: solid;
+  border-color: rgb(83,169,125);
   border-radius: 8px;
   padding: 4px 8px;
 }
