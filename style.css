@@ -108,3 +108,6 @@ li a:hover{
   padding: 4px 8px;
 }
 
+strong:hover{
+  color: black;
+}
