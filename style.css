@@ -4,10 +4,12 @@
 body {
   font-family: 'Poppins';
   background-color: rgb(240, 240, 240);
+  color: #434e52;
 }
 
 h1, h2{
   font-family: 'Open Sans Condensed';
+  margin: 8px;
 }
 
 a{
@@ -24,7 +26,7 @@ li a:hover{
   margin: 24px auto;
   background-color: white;
   border-radius: 4px;
-  padding: 24px;
+  padding: 16px;
   text-align: center;
   box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
 }
@@ -36,7 +38,7 @@ li a:hover{
     margin: 18px auto;
     background-color: white;
     border-radius: 4px;
-    padding: 16px;
+    padding: 8px;
     text-align: center;
     box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
   }
@@ -48,7 +50,7 @@ li a:hover{
     margin: 18px auto;
     background-color: white;
     border-radius: 4px;
-    padding: 16px;
+    padding: 8px;
     text-align: center;
     box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
   }
@@ -60,7 +62,7 @@ li a:hover{
     margin: 18px auto;
     background-color: white;
     border-radius: 4px;
-    padding: 16px;
+    padding: 8px;
     text-align: center;
     box-shadow: 2px 2px 3px rgba(0,0,0, 0.1);
   }
@@ -105,3 +107,4 @@ li a:hover{
   border-radius: 8px;
   padding: 4px 8px;
 }
+
